@@ -1,8 +1,8 @@
 //
 //  PatchOpenLinkRequestDTO.swift
-//  TOASTER-iOS
+//  TOASTER-Multiplatform
 //
-//  Created by 민 on 1/17/24.
+//  Created by ParkJunHyuk on 6/5/24.
 //
 
 import Foundation

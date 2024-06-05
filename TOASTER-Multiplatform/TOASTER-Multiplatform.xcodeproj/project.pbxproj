@@ -24,6 +24,54 @@
 		3F5150FC2C1013FC00AD05C3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5150FA2C1013FC00AD05C3 /* Config.swift */; };
 		3F5151002C10142500AD05C3 /* FontLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5150FD2C10142500AD05C3 /* FontLiterals.swift */; };
 		3F5151012C10142500AD05C3 /* StringLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5150FE2C10142500AD05C3 /* StringLiterals.swift */; };
+		3F5151072C10195400AD05C3 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151062C10195400AD05C3 /* KeyChainService.swift */; };
+		3F51510F2C1019A200AD05C3 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151082C1019A100AD05C3 /* NetworkResult.swift */; };
+		3F5151102C1019A200AD05C3 /* BaseTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151092C1019A100AD05C3 /* BaseTargetType.swift */; };
+		3F5151112C1019A200AD05C3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51510A2C1019A100AD05C3 /* NetworkService.swift */; };
+		3F5151122C1019A200AD05C3 /* APIInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51510B2C1019A100AD05C3 /* APIInterceptor.swift */; };
+		3F5151132C1019A200AD05C3 /* NoneDataResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51510C2C1019A100AD05C3 /* NoneDataResponseDTO.swift */; };
+		3F5151142C1019A200AD05C3 /* BaseAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51510D2C1019A200AD05C3 /* BaseAPIService.swift */; };
+		3F5151152C1019A200AD05C3 /* MoyaPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51510E2C1019A200AD05C3 /* MoyaPlugin.swift */; };
+		3F5151202C101A0600AD05C3 /* AuthAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151172C101A0500AD05C3 /* AuthAPIService.swift */; };
+		3F5151212C101A0600AD05C3 /* AuthTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151182C101A0600AD05C3 /* AuthTargetType.swift */; };
+		3F5151222C101A0600AD05C3 /* PostSocialLoginRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151192C101A0600AD05C3 /* PostSocialLoginRequestDTO.swift */; };
+		3F5151232C101A0600AD05C3 /* PostRefreshTokenResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51511B2C101A0600AD05C3 /* PostRefreshTokenResponseDTO.swift */; };
+		3F5151242C101A0600AD05C3 /* PostSocialLoginResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51511C2C101A0600AD05C3 /* PostSocialLoginResponseDTO.swift */; };
+		3F5151252C101A0600AD05C3 /* PostTokenHealthResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51511D2C101A0600AD05C3 /* PostTokenHealthResponseDTO.swift */; };
+		3F5151452C101B7300AD05C3 /* UserAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151302C101B7300AD05C3 /* UserAPIService.swift */; };
+		3F51514B2C101B7300AD05C3 /* PatchPushAlarmRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151372C101B7300AD05C3 /* PatchPushAlarmRequestDTO.swift */; };
+		3F51514C2C101B7300AD05C3 /* GetMainPageResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151392C101B7300AD05C3 /* GetMainPageResponseDTO.swift */; };
+		3F51514D2C101B7300AD05C3 /* GetMyPageResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51513A2C101B7300AD05C3 /* GetMyPageResponseDTO.swift */; };
+		3F51514E2C101B7300AD05C3 /* GetSettingPageResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51513B2C101B7300AD05C3 /* GetSettingPageResponseDTO.swift */; };
+		3F51514F2C101B7300AD05C3 /* PatchPushAlarmResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51513C2C101B7300AD05C3 /* PatchPushAlarmResponseDTO.swift */; };
+		3F5151502C101B7300AD05C3 /* UserTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51513F2C101B7300AD05C3 /* UserTargetType.swift */; };
+		3F51515D2C101BE600AD05C3 /* PatchEditNameCategoryRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151522C101BE600AD05C3 /* PatchEditNameCategoryRequestDTO.swift */; };
+		3F51515E2C101BE600AD05C3 /* PatchEditPriorityCategoryRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151532C101BE600AD05C3 /* PatchEditPriorityCategoryRequestDTO.swift */; };
+		3F51515F2C101BE600AD05C3 /* PostAddCategoryRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151542C101BE600AD05C3 /* PostAddCategoryRequestDTO.swift */; };
+		3F5151602C101BE600AD05C3 /* GetAllCategoryResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151562C101BE600AD05C3 /* GetAllCategoryResponseDTO.swift */; };
+		3F5151612C101BE600AD05C3 /* GetCheckCategoryResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151572C101BE600AD05C3 /* GetCheckCategoryResponseDTO.swift */; };
+		3F5151622C101BE600AD05C3 /* GetDetailCategoryResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151582C101BE600AD05C3 /* GetDetailCategoryResponseDTO.swift */; };
+		3F5151632C101BE600AD05C3 /* ClipAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51515B2C101BE600AD05C3 /* ClipAPIService.swift */; };
+		3F5151642C101BE600AD05C3 /* ClipTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51515C2C101BE600AD05C3 /* ClipTargetType.swift */; };
+		3F5151702C101C4700AD05C3 /* PatchEditLinkTitleRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151652C101C4700AD05C3 /* PatchEditLinkTitleRequestDTO.swift */; };
+		3F5151712C101C4700AD05C3 /* PatchOpenLinkRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151662C101C4700AD05C3 /* PatchOpenLinkRequestDTO.swift */; };
+		3F5151722C101C4700AD05C3 /* PostSaveLinkRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151672C101C4700AD05C3 /* PostSaveLinkRequestDTO.swift */; };
+		3F5151732C101C4700AD05C3 /* GetWeeksLinkResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151692C101C4700AD05C3 /* GetWeeksLinkResponseDTO.swift */; };
+		3F5151742C101C4700AD05C3 /* PatchEditLinkTitleResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51516A2C101C4700AD05C3 /* PatchEditLinkTitleResponseDTO.swift */; };
+		3F5151752C101C4700AD05C3 /* PatchOpenLinkResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51516B2C101C4700AD05C3 /* PatchOpenLinkResponseDTO.swift */; };
+		3F5151762C101C4700AD05C3 /* ToasterTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51516E2C101C4700AD05C3 /* ToasterTargetType.swift */; };
+		3F5151772C101C4700AD05C3 /* ToasterAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51516F2C101C4700AD05C3 /* ToasterAPIService.swift */; };
+		3F5151822C101C9C00AD05C3 /* PatchEditTimerRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151782C101C9C00AD05C3 /* PatchEditTimerRequestDTO.swift */; };
+		3F5151832C101C9C00AD05C3 /* PatchEditTimerTitleRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151792C101C9C00AD05C3 /* PatchEditTimerTitleRequestDTO.swift */; };
+		3F5151842C101C9C00AD05C3 /* PostCreateTimerRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51517A2C101C9C00AD05C3 /* PostCreateTimerRequestDTO.swift */; };
+		3F5151852C101C9D00AD05C3 /* GetDetailTimerResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51517C2C101C9C00AD05C3 /* GetDetailTimerResponseDTO.swift */; };
+		3F5151862C101C9D00AD05C3 /* GetTimerMainpageResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51517D2C101C9C00AD05C3 /* GetTimerMainpageResponseDTO.swift */; };
+		3F5151872C101C9D00AD05C3 /* TimerAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151802C101C9C00AD05C3 /* TimerAPIService.swift */; };
+		3F5151882C101C9D00AD05C3 /* TimerTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151812C101C9C00AD05C3 /* TimerTargetType.swift */; };
+		3F51518E2C101CA100AD05C3 /* SearchTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151892C101CA100AD05C3 /* SearchTargetType.swift */; };
+		3F51518F2C101CA100AD05C3 /* GetMainPageSearchResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51518A2C101CA100AD05C3 /* GetMainPageSearchResponseDTO.swift */; };
+		3F5151902C101CA100AD05C3 /* GetRecommendSiteResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51518B2C101CA100AD05C3 /* GetRecommendSiteResponseDTO.swift */; };
+		3F5151912C101CA200AD05C3 /* SearchAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51518D2C101CA100AD05C3 /* SearchAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +91,55 @@
 		3F5150FA2C1013FC00AD05C3 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		3F5150FD2C10142500AD05C3 /* FontLiterals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLiterals.swift; sourceTree = "<group>"; };
 		3F5150FE2C10142500AD05C3 /* StringLiterals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringLiterals.swift; sourceTree = "<group>"; };
+		3F5151022C10168900AD05C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F5151062C10195400AD05C3 /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		3F5151082C1019A100AD05C3 /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		3F5151092C1019A100AD05C3 /* BaseTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTargetType.swift; sourceTree = "<group>"; };
+		3F51510A2C1019A100AD05C3 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		3F51510B2C1019A100AD05C3 /* APIInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIInterceptor.swift; sourceTree = "<group>"; };
+		3F51510C2C1019A100AD05C3 /* NoneDataResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoneDataResponseDTO.swift; sourceTree = "<group>"; };
+		3F51510D2C1019A200AD05C3 /* BaseAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPIService.swift; sourceTree = "<group>"; };
+		3F51510E2C1019A200AD05C3 /* MoyaPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaPlugin.swift; sourceTree = "<group>"; };
+		3F5151172C101A0500AD05C3 /* AuthAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthAPIService.swift; sourceTree = "<group>"; };
+		3F5151182C101A0600AD05C3 /* AuthTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthTargetType.swift; sourceTree = "<group>"; };
+		3F5151192C101A0600AD05C3 /* PostSocialLoginRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSocialLoginRequestDTO.swift; sourceTree = "<group>"; };
+		3F51511B2C101A0600AD05C3 /* PostRefreshTokenResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRefreshTokenResponseDTO.swift; sourceTree = "<group>"; };
+		3F51511C2C101A0600AD05C3 /* PostSocialLoginResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSocialLoginResponseDTO.swift; sourceTree = "<group>"; };
+		3F51511D2C101A0600AD05C3 /* PostTokenHealthResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTokenHealthResponseDTO.swift; sourceTree = "<group>"; };
+		3F5151302C101B7300AD05C3 /* UserAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPIService.swift; sourceTree = "<group>"; };
+		3F5151372C101B7300AD05C3 /* PatchPushAlarmRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchPushAlarmRequestDTO.swift; sourceTree = "<group>"; };
+		3F5151392C101B7300AD05C3 /* GetMainPageResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMainPageResponseDTO.swift; sourceTree = "<group>"; };
+		3F51513A2C101B7300AD05C3 /* GetMyPageResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMyPageResponseDTO.swift; sourceTree = "<group>"; };
+		3F51513B2C101B7300AD05C3 /* GetSettingPageResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSettingPageResponseDTO.swift; sourceTree = "<group>"; };
+		3F51513C2C101B7300AD05C3 /* PatchPushAlarmResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchPushAlarmResponseDTO.swift; sourceTree = "<group>"; };
+		3F51513F2C101B7300AD05C3 /* UserTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTargetType.swift; sourceTree = "<group>"; };
+		3F5151522C101BE600AD05C3 /* PatchEditNameCategoryRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchEditNameCategoryRequestDTO.swift; sourceTree = "<group>"; };
+		3F5151532C101BE600AD05C3 /* PatchEditPriorityCategoryRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchEditPriorityCategoryRequestDTO.swift; sourceTree = "<group>"; };
+		3F5151542C101BE600AD05C3 /* PostAddCategoryRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostAddCategoryRequestDTO.swift; sourceTree = "<group>"; };
+		3F5151562C101BE600AD05C3 /* GetAllCategoryResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllCategoryResponseDTO.swift; sourceTree = "<group>"; };
+		3F5151572C101BE600AD05C3 /* GetCheckCategoryResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCheckCategoryResponseDTO.swift; sourceTree = "<group>"; };
+		3F5151582C101BE600AD05C3 /* GetDetailCategoryResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDetailCategoryResponseDTO.swift; sourceTree = "<group>"; };
+		3F51515B2C101BE600AD05C3 /* ClipAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipAPIService.swift; sourceTree = "<group>"; };
+		3F51515C2C101BE600AD05C3 /* ClipTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipTargetType.swift; sourceTree = "<group>"; };
+		3F5151652C101C4700AD05C3 /* PatchEditLinkTitleRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchEditLinkTitleRequestDTO.swift; sourceTree = "<group>"; };
+		3F5151662C101C4700AD05C3 /* PatchOpenLinkRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchOpenLinkRequestDTO.swift; sourceTree = "<group>"; };
+		3F5151672C101C4700AD05C3 /* PostSaveLinkRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSaveLinkRequestDTO.swift; sourceTree = "<group>"; };
+		3F5151692C101C4700AD05C3 /* GetWeeksLinkResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetWeeksLinkResponseDTO.swift; sourceTree = "<group>"; };
+		3F51516A2C101C4700AD05C3 /* PatchEditLinkTitleResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchEditLinkTitleResponseDTO.swift; sourceTree = "<group>"; };
+		3F51516B2C101C4700AD05C3 /* PatchOpenLinkResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchOpenLinkResponseDTO.swift; sourceTree = "<group>"; };
+		3F51516E2C101C4700AD05C3 /* ToasterTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToasterTargetType.swift; sourceTree = "<group>"; };
+		3F51516F2C101C4700AD05C3 /* ToasterAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToasterAPIService.swift; sourceTree = "<group>"; };
+		3F5151782C101C9C00AD05C3 /* PatchEditTimerRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchEditTimerRequestDTO.swift; sourceTree = "<group>"; };
+		3F5151792C101C9C00AD05C3 /* PatchEditTimerTitleRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchEditTimerTitleRequestDTO.swift; sourceTree = "<group>"; };
+		3F51517A2C101C9C00AD05C3 /* PostCreateTimerRequestDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCreateTimerRequestDTO.swift; sourceTree = "<group>"; };
+		3F51517C2C101C9C00AD05C3 /* GetDetailTimerResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDetailTimerResponseDTO.swift; sourceTree = "<group>"; };
+		3F51517D2C101C9C00AD05C3 /* GetTimerMainpageResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTimerMainpageResponseDTO.swift; sourceTree = "<group>"; };
+		3F5151802C101C9C00AD05C3 /* TimerAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerAPIService.swift; sourceTree = "<group>"; };
+		3F5151812C101C9C00AD05C3 /* TimerTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerTargetType.swift; sourceTree = "<group>"; };
+		3F5151892C101CA100AD05C3 /* SearchTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTargetType.swift; sourceTree = "<group>"; };
+		3F51518A2C101CA100AD05C3 /* GetMainPageSearchResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMainPageSearchResponseDTO.swift; sourceTree = "<group>"; };
+		3F51518B2C101CA100AD05C3 /* GetRecommendSiteResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRecommendSiteResponseDTO.swift; sourceTree = "<group>"; };
+		3F51518D2C101CA100AD05C3 /* SearchAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +175,11 @@
 		3F5150CD2C1010DA00AD05C3 /* TOASTER-Multiplatform */ = {
 			isa = PBXGroup;
 			children = (
+				3F5150D42C1010DC00AD05C3 /* TOASTER_Multiplatform.entitlements */,
 				3F5150E52C10139800AD05C3 /* Global */,
 				3F5150CE2C1010DA00AD05C3 /* TOASTER_MultiplatformApp.swift */,
 				3F5150D02C1010DA00AD05C3 /* ContentView.swift */,
-				3F5150D42C1010DC00AD05C3 /* TOASTER_Multiplatform.entitlements */,
+				3F5151042C10192000AD05C3 /* Network */,
 				3F5150D52C1010DC00AD05C3 /* Preview Content */,
 			);
 			path = "TOASTER-Multiplatform";
@@ -98,7 +196,9 @@
 		3F5150E52C10139800AD05C3 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				3F5150FF2C10142500AD05C3 /* Consts */,
 				3F5150E62C10139D00AD05C3 /* Resources */,
+				3F5151032C1017DD00AD05C3 /* Supporting Files */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -106,7 +206,6 @@
 		3F5150E62C10139D00AD05C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3F5150FF2C10142500AD05C3 /* Consts */,
 				3F5150F02C1013B000AD05C3 /* Assets */,
 				3F5150ED2C1013AF00AD05C3 /* Fonts */,
 				3F5150FA2C1013FC00AD05C3 /* Config.swift */,
@@ -143,6 +242,253 @@
 				3F5150FE2C10142500AD05C3 /* StringLiterals.swift */,
 			);
 			path = Consts;
+			sourceTree = "<group>";
+		};
+		3F5151032C1017DD00AD05C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151022C10168900AD05C3 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F5151042C10192000AD05C3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151052C10193900AD05C3 /* Base */,
+				3F5151162C1019F700AD05C3 /* Auth */,
+				3F5151262C101A6100AD05C3 /* User */,
+				3F5151272C101A6800AD05C3 /* Clip */,
+				3F5151282C101A6F00AD05C3 /* Toaster */,
+				3F5151292C101A7900AD05C3 /* Timer */,
+				3F51512A2C101A7E00AD05C3 /* Search */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3F5151052C10193900AD05C3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151062C10195400AD05C3 /* KeyChainService.swift */,
+				3F5151092C1019A100AD05C3 /* BaseTargetType.swift */,
+				3F51510D2C1019A200AD05C3 /* BaseAPIService.swift */,
+				3F51510E2C1019A200AD05C3 /* MoyaPlugin.swift */,
+				3F5151082C1019A100AD05C3 /* NetworkResult.swift */,
+				3F51510A2C1019A100AD05C3 /* NetworkService.swift */,
+				3F51510C2C1019A100AD05C3 /* NoneDataResponseDTO.swift */,
+				3F51510B2C1019A100AD05C3 /* APIInterceptor.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3F5151162C1019F700AD05C3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151172C101A0500AD05C3 /* AuthAPIService.swift */,
+				3F5151182C101A0600AD05C3 /* AuthTargetType.swift */,
+				3F51511F2C101A0600AD05C3 /* DTO */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3F51511A2C101A0600AD05C3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151192C101A0600AD05C3 /* PostSocialLoginRequestDTO.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3F51511E2C101A0600AD05C3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3F51511B2C101A0600AD05C3 /* PostRefreshTokenResponseDTO.swift */,
+				3F51511C2C101A0600AD05C3 /* PostSocialLoginResponseDTO.swift */,
+				3F51511D2C101A0600AD05C3 /* PostTokenHealthResponseDTO.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		3F51511F2C101A0600AD05C3 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				3F51511A2C101A0600AD05C3 /* Request */,
+				3F51511E2C101A0600AD05C3 /* Response */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		3F5151262C101A6100AD05C3 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151302C101B7300AD05C3 /* UserAPIService.swift */,
+				3F51513F2C101B7300AD05C3 /* UserTargetType.swift */,
+				3F51513E2C101B7300AD05C3 /* DTO */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		3F5151272C101A6800AD05C3 /* Clip */ = {
+			isa = PBXGroup;
+			children = (
+				3F51515B2C101BE600AD05C3 /* ClipAPIService.swift */,
+				3F51515C2C101BE600AD05C3 /* ClipTargetType.swift */,
+				3F51515A2C101BE600AD05C3 /* DTO */,
+			);
+			path = Clip;
+			sourceTree = "<group>";
+		};
+		3F5151282C101A6F00AD05C3 /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				3F51516F2C101C4700AD05C3 /* ToasterAPIService.swift */,
+				3F51516E2C101C4700AD05C3 /* ToasterTargetType.swift */,
+				3F51516D2C101C4700AD05C3 /* DTO */,
+			);
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		3F5151292C101A7900AD05C3 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151802C101C9C00AD05C3 /* TimerAPIService.swift */,
+				3F5151812C101C9C00AD05C3 /* TimerTargetType.swift */,
+				3F51517F2C101C9C00AD05C3 /* DTO */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		3F51512A2C101A7E00AD05C3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				3F51518D2C101CA100AD05C3 /* SearchAPIService.swift */,
+				3F5151892C101CA100AD05C3 /* SearchTargetType.swift */,
+				3F51518C2C101CA100AD05C3 /* DTO */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		3F5151382C101B7300AD05C3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151372C101B7300AD05C3 /* PatchPushAlarmRequestDTO.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3F51513D2C101B7300AD05C3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3F51513B2C101B7300AD05C3 /* GetSettingPageResponseDTO.swift */,
+				3F51513A2C101B7300AD05C3 /* GetMyPageResponseDTO.swift */,
+				3F51513C2C101B7300AD05C3 /* PatchPushAlarmResponseDTO.swift */,
+				3F5151392C101B7300AD05C3 /* GetMainPageResponseDTO.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		3F51513E2C101B7300AD05C3 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151382C101B7300AD05C3 /* Request */,
+				3F51513D2C101B7300AD05C3 /* Response */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		3F5151552C101BE600AD05C3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151542C101BE600AD05C3 /* PostAddCategoryRequestDTO.swift */,
+				3F5151532C101BE600AD05C3 /* PatchEditPriorityCategoryRequestDTO.swift */,
+				3F5151522C101BE600AD05C3 /* PatchEditNameCategoryRequestDTO.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3F5151592C101BE600AD05C3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151582C101BE600AD05C3 /* GetDetailCategoryResponseDTO.swift */,
+				3F5151562C101BE600AD05C3 /* GetAllCategoryResponseDTO.swift */,
+				3F5151572C101BE600AD05C3 /* GetCheckCategoryResponseDTO.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		3F51515A2C101BE600AD05C3 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151552C101BE600AD05C3 /* Request */,
+				3F5151592C101BE600AD05C3 /* Response */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		3F5151682C101C4700AD05C3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151672C101C4700AD05C3 /* PostSaveLinkRequestDTO.swift */,
+				3F5151662C101C4700AD05C3 /* PatchOpenLinkRequestDTO.swift */,
+				3F5151652C101C4700AD05C3 /* PatchEditLinkTitleRequestDTO.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3F51516C2C101C4700AD05C3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3F51516B2C101C4700AD05C3 /* PatchOpenLinkResponseDTO.swift */,
+				3F5151692C101C4700AD05C3 /* GetWeeksLinkResponseDTO.swift */,
+				3F51516A2C101C4700AD05C3 /* PatchEditLinkTitleResponseDTO.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		3F51516D2C101C4700AD05C3 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151682C101C4700AD05C3 /* Request */,
+				3F51516C2C101C4700AD05C3 /* Response */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		3F51517B2C101C9C00AD05C3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3F51517A2C101C9C00AD05C3 /* PostCreateTimerRequestDTO.swift */,
+				3F5151782C101C9C00AD05C3 /* PatchEditTimerRequestDTO.swift */,
+				3F5151792C101C9C00AD05C3 /* PatchEditTimerTitleRequestDTO.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3F51517E2C101C9C00AD05C3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3F51517D2C101C9C00AD05C3 /* GetTimerMainpageResponseDTO.swift */,
+				3F51517C2C101C9C00AD05C3 /* GetDetailTimerResponseDTO.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		3F51517F2C101C9C00AD05C3 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				3F51517B2C101C9C00AD05C3 /* Request */,
+				3F51517E2C101C9C00AD05C3 /* Response */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		3F51518C2C101CA100AD05C3 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				3F51518A2C101CA100AD05C3 /* GetMainPageSearchResponseDTO.swift */,
+				3F51518B2C101CA100AD05C3 /* GetRecommendSiteResponseDTO.swift */,
+			);
+			path = DTO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,11 +577,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F51514E2C101B7300AD05C3 /* GetSettingPageResponseDTO.swift in Sources */,
 				3F5151002C10142500AD05C3 /* FontLiterals.swift in Sources */,
+				3F5151862C101C9D00AD05C3 /* GetTimerMainpageResponseDTO.swift in Sources */,
+				3F5151902C101CA100AD05C3 /* GetRecommendSiteResponseDTO.swift in Sources */,
+				3F51515E2C101BE600AD05C3 /* PatchEditPriorityCategoryRequestDTO.swift in Sources */,
+				3F5151452C101B7300AD05C3 /* UserAPIService.swift in Sources */,
+				3F5151252C101A0600AD05C3 /* PostTokenHealthResponseDTO.swift in Sources */,
+				3F5151722C101C4700AD05C3 /* PostSaveLinkRequestDTO.swift in Sources */,
+				3F5151502C101B7300AD05C3 /* UserTargetType.swift in Sources */,
+				3F51518E2C101CA100AD05C3 /* SearchTargetType.swift in Sources */,
+				3F5151752C101C4700AD05C3 /* PatchOpenLinkResponseDTO.swift in Sources */,
+				3F5151152C1019A200AD05C3 /* MoyaPlugin.swift in Sources */,
+				3F5151242C101A0600AD05C3 /* PostSocialLoginResponseDTO.swift in Sources */,
+				3F51514C2C101B7300AD05C3 /* GetMainPageResponseDTO.swift in Sources */,
+				3F5151872C101C9D00AD05C3 /* TimerAPIService.swift in Sources */,
+				3F5151602C101BE600AD05C3 /* GetAllCategoryResponseDTO.swift in Sources */,
 				3F5151012C10142500AD05C3 /* StringLiterals.swift in Sources */,
+				3F5151912C101CA200AD05C3 /* SearchAPIService.swift in Sources */,
+				3F51518F2C101CA100AD05C3 /* GetMainPageSearchResponseDTO.swift in Sources */,
 				3F5150D12C1010DA00AD05C3 /* ContentView.swift in Sources */,
+				3F51515F2C101BE600AD05C3 /* PostAddCategoryRequestDTO.swift in Sources */,
+				3F5151832C101C9C00AD05C3 /* PatchEditTimerTitleRequestDTO.swift in Sources */,
+				3F5151222C101A0600AD05C3 /* PostSocialLoginRequestDTO.swift in Sources */,
+				3F5151762C101C4700AD05C3 /* ToasterTargetType.swift in Sources */,
+				3F5151102C1019A200AD05C3 /* BaseTargetType.swift in Sources */,
+				3F51514D2C101B7300AD05C3 /* GetMyPageResponseDTO.swift in Sources */,
+				3F51514F2C101B7300AD05C3 /* PatchPushAlarmResponseDTO.swift in Sources */,
+				3F5151212C101A0600AD05C3 /* AuthTargetType.swift in Sources */,
+				3F5151232C101A0600AD05C3 /* PostRefreshTokenResponseDTO.swift in Sources */,
+				3F5151122C1019A200AD05C3 /* APIInterceptor.swift in Sources */,
+				3F5151632C101BE600AD05C3 /* ClipAPIService.swift in Sources */,
+				3F5151622C101BE600AD05C3 /* GetDetailCategoryResponseDTO.swift in Sources */,
+				3F5151202C101A0600AD05C3 /* AuthAPIService.swift in Sources */,
+				3F5151612C101BE600AD05C3 /* GetCheckCategoryResponseDTO.swift in Sources */,
+				3F5151742C101C4700AD05C3 /* PatchEditLinkTitleResponseDTO.swift in Sources */,
+				3F5151642C101BE600AD05C3 /* ClipTargetType.swift in Sources */,
+				3F5151142C1019A200AD05C3 /* BaseAPIService.swift in Sources */,
+				3F5151112C1019A200AD05C3 /* NetworkService.swift in Sources */,
+				3F5151822C101C9C00AD05C3 /* PatchEditTimerRequestDTO.swift in Sources */,
+				3F5151882C101C9D00AD05C3 /* TimerTargetType.swift in Sources */,
+				3F5151132C1019A200AD05C3 /* NoneDataResponseDTO.swift in Sources */,
+				3F5151702C101C4700AD05C3 /* PatchEditLinkTitleRequestDTO.swift in Sources */,
+				3F51514B2C101B7300AD05C3 /* PatchPushAlarmRequestDTO.swift in Sources */,
+				3F5151072C10195400AD05C3 /* KeyChainService.swift in Sources */,
 				3F5150CF2C1010DA00AD05C3 /* TOASTER_MultiplatformApp.swift in Sources */,
+				3F5151852C101C9D00AD05C3 /* GetDetailTimerResponseDTO.swift in Sources */,
+				3F5151712C101C4700AD05C3 /* PatchOpenLinkRequestDTO.swift in Sources */,
+				3F5151772C101C4700AD05C3 /* ToasterAPIService.swift in Sources */,
 				3F5150FC2C1013FC00AD05C3 /* Config.swift in Sources */,
+				3F51510F2C1019A200AD05C3 /* NetworkResult.swift in Sources */,
+				3F51515D2C101BE600AD05C3 /* PatchEditNameCategoryRequestDTO.swift in Sources */,
+				3F5151842C101C9C00AD05C3 /* PostCreateTimerRequestDTO.swift in Sources */,
+				3F5151732C101C4700AD05C3 /* GetWeeksLinkResponseDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +763,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TOASTER-Multiplatform/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -407,6 +802,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TOASTER-Multiplatform/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

@@ -1,8 +1,8 @@
 //
 //  PostSaveLinkRequestDTO.swift
-//  TOASTER-iOS
+//  TOASTER-Multiplatform
 //
-//  Created by 김다예 on 1/15/24.
+//  Created by ParkJunHyuk on 6/5/24.
 //
 
 import Foundation
