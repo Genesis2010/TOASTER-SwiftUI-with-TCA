@@ -1,8 +1,8 @@
 //
 //  Config.swift
-//  TOASTER-iOS
+//  TOASTER-Multiplatform
 //
-//  Created by ParkJunHyuk on 1/4/24.
+//  Created by ParkJunHyuk on 6/5/24.
 //
 
 import Foundation

@@ -1,11 +1,11 @@
 //
 //  FontLiterals.swift
-//  TOASTER-iOS
+//  TOASTER-Multiplatform
 //
-//  Created by 민 on 12/31/23.
+//  Created by ParkJunHyuk on 6/5/24.
 //
 
-import UIKit
+import SwiftUI
 
 enum FontName: String {
     case suitExtraBold = "SUIT-ExtraBold"
@@ -15,24 +15,24 @@ enum FontName: String {
     case suitRegular = "SUIT-Regular"
 }
 
-extension UIFont {
-    @nonobjc class func suitExtraBold(size: CGFloat) -> UIFont {
-        return UIFont(name: FontName.suitExtraBold.rawValue, size: size)!
+extension Font {
+    func suitExtraBold(size: CGFloat) -> Font {
+        return Font.custom(FontName.suitExtraBold.rawValue, size: size)
     }
     
-    @nonobjc class func suitBold(size: CGFloat) -> UIFont {
-        return UIFont(name: FontName.suitBold.rawValue, size: size)!
+    func suitBold(size: CGFloat) -> Font {
+        return Font.custom(FontName.suitExtraBold.rawValue, size: size)
     }
     
-    @nonobjc class func suitSemiBold(size: CGFloat) -> UIFont {
-        return UIFont(name: FontName.suitSemiBold.rawValue, size: size)!
+    func suitSemiBold(size: CGFloat) -> Font {
+        return Font.custom(FontName.suitExtraBold.rawValue, size: size)
     }
     
-    @nonobjc class func suitMedium(size: CGFloat) -> UIFont {
-        return UIFont(name: FontName.suitMedium.rawValue, size: size)!
+    func suitMedium(size: CGFloat) -> Font {
+        return Font.custom(FontName.suitExtraBold.rawValue, size: size)
     }
     
-    @nonobjc class func suitRegular(size: CGFloat) -> UIFont {
-        return UIFont(name: FontName.suitRegular.rawValue, size: size)!
+    func suitRegular(size: CGFloat) -> Font {
+        return Font.custom(FontName.suitExtraBold.rawValue, size: size)
     }
 }

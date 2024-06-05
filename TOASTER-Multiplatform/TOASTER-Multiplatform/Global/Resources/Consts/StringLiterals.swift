@@ -1,8 +1,8 @@
 //
 //  StringLiterals.swift
-//  TOASTER-iOS
+//  TOASTER-Multiplatform
 //
-//  Created by Gahyun Kim on 2024/01/01.
+//  Created by ParkJunHyuk on 6/5/24.
 //
 
 import Foundation

@@ -9,17 +9,40 @@
 /* Begin PBXBuildFile section */
 		3F5150CF2C1010DA00AD05C3 /* TOASTER_MultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5150CE2C1010DA00AD05C3 /* TOASTER_MultiplatformApp.swift */; };
 		3F5150D12C1010DA00AD05C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5150D02C1010DA00AD05C3 /* ContentView.swift */; };
-		3F5150D32C1010DC00AD05C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5150D22C1010DC00AD05C3 /* Assets.xcassets */; };
 		3F5150D72C1010DC00AD05C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5150D62C1010DC00AD05C3 /* Preview Assets.xcassets */; };
+		3F5150DF2C10116400AD05C3 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 3F5150DE2C10116400AD05C3 /* CombineMoya */; };
+		3F5150E12C10116400AD05C3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 3F5150E02C10116400AD05C3 /* Moya */; };
+		3F5150E42C10116D00AD05C3 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3F5150E32C10116D00AD05C3 /* ComposableArchitecture */; };
+		3F5150F22C1013B000AD05C3 /* SUIT-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F5150E82C1013AF00AD05C3 /* SUIT-Bold.otf */; };
+		3F5150F32C1013B000AD05C3 /* SUIT-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F5150E92C1013AF00AD05C3 /* SUIT-ExtraBold.otf */; };
+		3F5150F42C1013B000AD05C3 /* SUIT-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F5150EA2C1013AF00AD05C3 /* SUIT-Medium.otf */; };
+		3F5150F52C1013B000AD05C3 /* SUIT-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F5150EB2C1013AF00AD05C3 /* SUIT-Regular.otf */; };
+		3F5150F62C1013B000AD05C3 /* SUIT-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F5150EC2C1013AF00AD05C3 /* SUIT-SemiBold.otf */; };
+		3F5150F72C1013B000AD05C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5150EE2C1013B000AD05C3 /* Assets.xcassets */; };
+		3F5150F82C1013B000AD05C3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5150EF2C1013B000AD05C3 /* Colors.xcassets */; };
+		3F5150FB2C1013FC00AD05C3 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3F5150F92C1013FC00AD05C3 /* Config.xcconfig */; };
+		3F5150FC2C1013FC00AD05C3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5150FA2C1013FC00AD05C3 /* Config.swift */; };
+		3F5151002C10142500AD05C3 /* FontLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5150FD2C10142500AD05C3 /* FontLiterals.swift */; };
+		3F5151012C10142500AD05C3 /* StringLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5150FE2C10142500AD05C3 /* StringLiterals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F5150CB2C1010DA00AD05C3 /* TOASTER-Multiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TOASTER-Multiplatform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5150CE2C1010DA00AD05C3 /* TOASTER_MultiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOASTER_MultiplatformApp.swift; sourceTree = "<group>"; };
 		3F5150D02C1010DA00AD05C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3F5150D22C1010DC00AD05C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F5150D42C1010DC00AD05C3 /* TOASTER_Multiplatform.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TOASTER_Multiplatform.entitlements; sourceTree = "<group>"; };
 		3F5150D62C1010DC00AD05C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F5150E82C1013AF00AD05C3 /* SUIT-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Bold.otf"; sourceTree = "<group>"; };
+		3F5150E92C1013AF00AD05C3 /* SUIT-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraBold.otf"; sourceTree = "<group>"; };
+		3F5150EA2C1013AF00AD05C3 /* SUIT-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Medium.otf"; sourceTree = "<group>"; };
+		3F5150EB2C1013AF00AD05C3 /* SUIT-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Regular.otf"; sourceTree = "<group>"; };
+		3F5150EC2C1013AF00AD05C3 /* SUIT-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-SemiBold.otf"; sourceTree = "<group>"; };
+		3F5150EE2C1013B000AD05C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F5150EF2C1013B000AD05C3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		3F5150F92C1013FC00AD05C3 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		3F5150FA2C1013FC00AD05C3 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		3F5150FD2C10142500AD05C3 /* FontLiterals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLiterals.swift; sourceTree = "<group>"; };
+		3F5150FE2C10142500AD05C3 /* StringLiterals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringLiterals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5150E12C10116400AD05C3 /* Moya in Frameworks */,
+				3F5150DF2C10116400AD05C3 /* CombineMoya in Frameworks */,
+				3F5150E42C10116D00AD05C3 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +78,9 @@
 		3F5150CD2C1010DA00AD05C3 /* TOASTER-Multiplatform */ = {
 			isa = PBXGroup;
 			children = (
+				3F5150E52C10139800AD05C3 /* Global */,
 				3F5150CE2C1010DA00AD05C3 /* TOASTER_MultiplatformApp.swift */,
 				3F5150D02C1010DA00AD05C3 /* ContentView.swift */,
-				3F5150D22C1010DC00AD05C3 /* Assets.xcassets */,
 				3F5150D42C1010DC00AD05C3 /* TOASTER_Multiplatform.entitlements */,
 				3F5150D52C1010DC00AD05C3 /* Preview Content */,
 			);
@@ -67,6 +93,56 @@
 				3F5150D62C1010DC00AD05C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F5150E52C10139800AD05C3 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				3F5150E62C10139D00AD05C3 /* Resources */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		3F5150E62C10139D00AD05C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F5150FF2C10142500AD05C3 /* Consts */,
+				3F5150F02C1013B000AD05C3 /* Assets */,
+				3F5150ED2C1013AF00AD05C3 /* Fonts */,
+				3F5150FA2C1013FC00AD05C3 /* Config.swift */,
+				3F5150F92C1013FC00AD05C3 /* Config.xcconfig */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F5150ED2C1013AF00AD05C3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F5150E82C1013AF00AD05C3 /* SUIT-Bold.otf */,
+				3F5150E92C1013AF00AD05C3 /* SUIT-ExtraBold.otf */,
+				3F5150EA2C1013AF00AD05C3 /* SUIT-Medium.otf */,
+				3F5150EB2C1013AF00AD05C3 /* SUIT-Regular.otf */,
+				3F5150EC2C1013AF00AD05C3 /* SUIT-SemiBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3F5150F02C1013B000AD05C3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3F5150EE2C1013B000AD05C3 /* Assets.xcassets */,
+				3F5150EF2C1013B000AD05C3 /* Colors.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		3F5150FF2C10142500AD05C3 /* Consts */ = {
+			isa = PBXGroup;
+			children = (
+				3F5150FD2C10142500AD05C3 /* FontLiterals.swift */,
+				3F5150FE2C10142500AD05C3 /* StringLiterals.swift */,
+			);
+			path = Consts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +161,11 @@
 			dependencies = (
 			);
 			name = "TOASTER-Multiplatform";
+			packageProductDependencies = (
+				3F5150DE2C10116400AD05C3 /* CombineMoya */,
+				3F5150E02C10116400AD05C3 /* Moya */,
+				3F5150E32C10116D00AD05C3 /* ComposableArchitecture */,
+			);
 			productName = "TOASTER-Multiplatform";
 			productReference = 3F5150CB2C1010DA00AD05C3 /* TOASTER-Multiplatform.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +194,10 @@
 				Base,
 			);
 			mainGroup = 3F5150C22C1010DA00AD05C3;
+			packageReferences = (
+				3F5150DD2C10116400AD05C3 /* XCRemoteSwiftPackageReference "Moya" */,
+				3F5150E22C10116D00AD05C3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 3F5150CC2C1010DA00AD05C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,8 +212,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5150F62C1013B000AD05C3 /* SUIT-SemiBold.otf in Resources */,
 				3F5150D72C1010DC00AD05C3 /* Preview Assets.xcassets in Resources */,
-				3F5150D32C1010DC00AD05C3 /* Assets.xcassets in Resources */,
+				3F5150F32C1013B000AD05C3 /* SUIT-ExtraBold.otf in Resources */,
+				3F5150F42C1013B000AD05C3 /* SUIT-Medium.otf in Resources */,
+				3F5150F82C1013B000AD05C3 /* Colors.xcassets in Resources */,
+				3F5150FB2C1013FC00AD05C3 /* Config.xcconfig in Resources */,
+				3F5150F52C1013B000AD05C3 /* SUIT-Regular.otf in Resources */,
+				3F5150F72C1013B000AD05C3 /* Assets.xcassets in Resources */,
+				3F5150F22C1013B000AD05C3 /* SUIT-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5151002C10142500AD05C3 /* FontLiterals.swift in Sources */,
+				3F5151012C10142500AD05C3 /* StringLiterals.swift in Sources */,
 				3F5150D12C1010DA00AD05C3 /* ContentView.swift in Sources */,
 				3F5150CF2C1010DA00AD05C3 /* TOASTER_MultiplatformApp.swift in Sources */,
+				3F5150FC2C1013FC00AD05C3 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +454,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F5150DD2C10116400AD05C3 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		3F5150E22C10116D00AD05C3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F5150DE2C10116400AD05C3 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F5150DD2C10116400AD05C3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		3F5150E02C10116400AD05C3 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F5150DD2C10116400AD05C3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		3F5150E32C10116D00AD05C3 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F5150E22C10116D00AD05C3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F5150C32C1010DA00AD05C3 /* Project object */;
 }
