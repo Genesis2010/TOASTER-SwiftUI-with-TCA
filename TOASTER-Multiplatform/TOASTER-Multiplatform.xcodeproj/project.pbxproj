@@ -72,6 +72,7 @@
 		3F51518F2C101CA100AD05C3 /* GetMainPageSearchResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51518A2C101CA100AD05C3 /* GetMainPageSearchResponseDTO.swift */; };
 		3F5151902C101CA100AD05C3 /* GetRecommendSiteResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51518B2C101CA100AD05C3 /* GetRecommendSiteResponseDTO.swift */; };
 		3F5151912C101CA200AD05C3 /* SearchAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51518D2C101CA100AD05C3 /* SearchAPIService.swift */; };
+		3F5151952C102D1200AD05C3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5151942C102D1100AD05C3 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +141,7 @@
 		3F51518A2C101CA100AD05C3 /* GetMainPageSearchResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMainPageSearchResponseDTO.swift; sourceTree = "<group>"; };
 		3F51518B2C101CA100AD05C3 /* GetRecommendSiteResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRecommendSiteResponseDTO.swift; sourceTree = "<group>"; };
 		3F51518D2C101CA100AD05C3 /* SearchAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAPIService.swift; sourceTree = "<group>"; };
+		3F5151942C102D1100AD05C3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,10 +177,10 @@
 		3F5150CD2C1010DA00AD05C3 /* TOASTER-Multiplatform */ = {
 			isa = PBXGroup;
 			children = (
-				3F5150D42C1010DC00AD05C3 /* TOASTER_Multiplatform.entitlements */,
-				3F5150E52C10139800AD05C3 /* Global */,
 				3F5150CE2C1010DA00AD05C3 /* TOASTER_MultiplatformApp.swift */,
 				3F5150D02C1010DA00AD05C3 /* ContentView.swift */,
+				3F5150D42C1010DC00AD05C3 /* TOASTER_Multiplatform.entitlements */,
+				3F5150E52C10139800AD05C3 /* Global */,
 				3F5151042C10192000AD05C3 /* Network */,
 				3F5151922C10288E00AD05C3 /* Present */,
 				3F5150D52C1010DC00AD05C3 /* Preview Content */,
@@ -495,8 +497,17 @@
 		3F5151922C10288E00AD05C3 /* Present */ = {
 			isa = PBXGroup;
 			children = (
+				3F5151932C102D0000AD05C3 /* Login */,
 			);
 			path = Present;
+			sourceTree = "<group>";
+		};
+		3F5151932C102D0000AD05C3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3F5151942C102D1100AD05C3 /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -633,6 +644,7 @@
 				3F5151852C101C9D00AD05C3 /* GetDetailTimerResponseDTO.swift in Sources */,
 				3F5151712C101C4700AD05C3 /* PatchOpenLinkRequestDTO.swift in Sources */,
 				3F5151772C101C4700AD05C3 /* ToasterAPIService.swift in Sources */,
+				3F5151952C102D1200AD05C3 /* LoginView.swift in Sources */,
 				3F5150FC2C1013FC00AD05C3 /* Config.swift in Sources */,
 				3F51510F2C1019A200AD05C3 /* NetworkResult.swift in Sources */,
 				3F51515D2C101BE600AD05C3 /* PatchEditNameCategoryRequestDTO.swift in Sources */,
